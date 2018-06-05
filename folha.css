@@ -1,0 +1,78 @@
+﻿body
+{
+    background-color: #3D3E3F;
+    font-family: "Bodoni MT";
+}
+h3
+{
+    color: #CACDEF;
+    font-size: 18px;
+}
+h2
+{
+    color: #CACDEF;
+    font-size: 22px;
+}
+h1 
+{
+    color: #CACDEF;
+    font-size: 40px;
+}
+p 
+{
+    color: #CACDEF;
+    font-size: 12px;
+}
+#titulo
+{
+    display: block;
+    text-align: left;
+}
+#corpo
+{
+    width: 100%;
+    height: 100%;
+}
+#menu
+{
+    display: inline-block;
+    float:left;
+    text-align: left;
+    width: 5%;
+}
+a
+{
+    color: #cacdef;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: #CACDEF;
+    color: #3D3E3F;
+    font-size: 12px;
+    text-decoration: none;
+}
+#imagem
+{
+    display: inline-block;
+    float: right;
+}
+#curriculo {
+    display: inline-block;
+    float: left;
+    margin-left: 5%;
+    margin-right: auto;
+    overflow: scroll;
+    position: fixed;
+    width: 70%;
+    height: 80%;
+}
+#prezi
+{
+    display: inline-block;
+    margin-left: 5%;
+    position: fixed;
+    float: left;
+    width: 50%;
+}
