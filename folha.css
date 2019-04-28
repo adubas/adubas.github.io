@@ -67,8 +67,15 @@ a:hover
 }
 #conteudo {
     display: inline-block;
-    margin: auto;
+    margin-right: 10%;
     overflow: scroll;
+    position: fixed;
+    width: 50%;
+    height: 80%;
+}
+#experiencia {
+    display: inline-block;
+    margin-right: 10%;
     position: fixed;
     width: 50%;
     height: 80%;
