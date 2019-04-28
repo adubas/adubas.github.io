@@ -6,17 +6,14 @@
 }
 h3
 {
-    color: #CACDEF;
     font-size: 18px;
 }
 h2
 {
-    color: #CACDEF;
     font-size: 22px;
 }
 h1 
 {
-    color: #CACDEF;
     font-size: 40px;
 }
 p 
@@ -30,7 +27,6 @@ ul
 }
 ul li 
 {
-    color: #CACDEF;
     font-size: 12px;
 }
 #titulo
@@ -67,12 +63,11 @@ a:hover
 {
     display: inline-block;
     float: right;
+    width: 30%
 }
 #conteudo {
     display: inline-block;
     float: left;
-    margin-left: 20%;
-    margin-right: auto;
     overflow: scroll;
     position: fixed;
     width: 50%;
