@@ -67,7 +67,7 @@ a:hover
 }
 #conteudo {
     display: inline-block;
-    float: left;
+    margin: auto;
     overflow: scroll;
     position: fixed;
     width: 50%;
