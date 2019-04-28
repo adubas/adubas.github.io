@@ -25,6 +25,10 @@ p
 }
 ul
 {
+    list-style-type: square;
+}
+ul li 
+{
     color: #CACDEF;
     font-size: 12px;
 }
@@ -66,7 +70,7 @@ a:hover
 #curriculo {
     display: inline-block;
     float: left;
-    margin-left: 5%;
+    margin-left: 20%;
     margin-right: auto;
     overflow: scroll;
     position: fixed;
