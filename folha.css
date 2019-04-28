@@ -52,33 +52,34 @@ a:hover
     width: 100%;
     height: 100%;
     display: grid;
-    grid.template.columns: 1fr 4fr 1fr;  
+    grid.template.columns: 1fr 4fr 1fr;
+    grid.auto.rows: 60%;
 }
-.corpo > #menu
+#menu
 {
-    display: inline-block;
-    float:left;
-    text-align: left;
+    grid.column.start: 1;
+    grid.row.start: 1;
+    grid.row.end: 
 }
 
-.corpo > #imagem
+#imagem
 {
     display: inline-block;
     float: right;
 }
-.corpo > #conteudo {
+#conteudo {
     display: inline-block;
     overflow: scroll;
     position: fixed;
     float: left;
     height: 80%;
 }
-.conteudo > #experiencia {
+#experiencia {
     display: inline-block;
     position: fixed;
     float: left;
 }
-.corpo > #prezi
+#prezi
 {
     display: inline-block;
     margin-left: 5%;
