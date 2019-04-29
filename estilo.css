@@ -8,7 +8,7 @@ body {
 
 .navigation {
     height: 100%;
-    width: 15%;
+    width: 10%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -32,6 +32,7 @@ body {
   
   .active {
     background-color: #8ecccc;
+    color: #3a4042;
   }
 
 .img {
@@ -40,7 +41,7 @@ body {
 }
 
 .main {
-    margin-left: 18%;
+    margin-left: 15%;
     width: 70%;
     color: #3a4042;
 }
