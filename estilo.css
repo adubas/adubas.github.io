@@ -25,6 +25,9 @@ body {
     bottom: 0;;
     color: #8ecccc;
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   
